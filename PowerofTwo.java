@@ -16,3 +16,11 @@ public class PowerofTwo {
         return (n & (n - 1)) == 0;
     }
 }
+
+/*
+ * example
+ * | Step | n | n-1 | Binary(n) | Binary(n-1) | n & (n-1) |
+ * | --- | --- | --- | --- | --- | --- |
+ * | Init | 16 | 15 | 10000 | 01111 | 00000 |
+ * 
+ */
